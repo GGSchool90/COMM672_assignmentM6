@@ -1,0 +1,21 @@
+html {
+    font-size: 10px;
+}
+body {
+    font: 1.5rem Verdana, Arial, sans-serif;
+}
+a {
+    color: #C462DD;
+    text-decoration: none;
+}
+.button {
+    background-color: #C462DD;
+    color: #fff;
+    padding: .25em .5em .35em;
+    border-radius: .5em;
+}
+nav {
+    background-color: #dedede;
+    padding: 20px;
+    margin-bottom: 2em;
+}
