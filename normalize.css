@@ -1,0 +1,121 @@
+body{
+background:#efefef;
+font-family:Verdana, sans-serif;
+margin:0;
+}
+
+/* NAVBAR */
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+}
+
+.nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+padding:0;
+margin:0;
+}
+
+.nav a{
+text-decoration:none;
+color:black;
+}
+
+.button{
+background:#e6a563;
+padding:8px 14px;
+border-radius:6px;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#FFCF83;
+padding:60px;
+}
+
+.hero img{
+width:300px;
+}
+
+/* FEATURES */
+
+.features{
+padding:40px;
+text-align:center;
+}
+
+.features-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+flex:1;
+text-align:center;
+}
+
+.card img{
+width:100%;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+background:#222e50;
+color:white;
+display:flex;
+gap:20px;
+padding:40px;
+}
+
+.testimonial{
+background:white;
+color:black;
+padding:20px;
+flex:1;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#ddd;
+}
+/* TEAM */
+
+.team{
+padding:40px;
+text-align:center;
+background:#eee;
+}
+
+.team-container{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.member{
+text-align:center;
+width:150px;
+}
+
+.member img{
+width:80px;
+border-radius:50%;
+}
